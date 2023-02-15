@@ -23,3 +23,4 @@ Trabajamos con el pensamiento logico para poder comensar a creas.
 ## Operadores lógicos.
 
 Son conectores que se utilizan mucho, nos permitiría conectar 2 o más valores para identificarlos si su valor es Positivo o Negativo para darle un sentido lógico a los prenunciados que estemos desarrollando de acuerdo al caso.
+
