@@ -35,7 +35,7 @@ Son herramientas que nos provee nuestro lenguaje para que podamos hacer validaci
 
   # IF / ELSE.
  
-. Esta estructura de control nos ayuda a validar si sucede alguna condición para que una acción se pueda ejecutar y en caso de que esa validación sea falso o que no se cumpla entonces se va a ejecutar otra acción.
+- Esta estructura de control nos ayuda a validar si sucede alguna condición para que una acción se pueda ejecutar y en caso de que esa validación sea falso o que no se cumpla entonces se va a ejecutar otra acción.
 
 
 
