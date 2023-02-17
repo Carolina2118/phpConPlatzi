@@ -30,4 +30,6 @@ Son conectores que se utilizan mucho, nos permitiría conectar 2 o más valores 
 ## Estructura de control.
 
 Son herramientas que nos provee nuestro lenguaje para que podamos hacer validaciones,interacciones y demás actividades de acuerda a la necesidad en nuestros proyectos para nuestro códigos. 
+![Captura de pantalla de 2023-02-17 19-29-26](https://user-images.githubusercontent.com/67702555/219811339-fa293e41-145d-4237-9c85-93b2cd689af1.png)
+
 
