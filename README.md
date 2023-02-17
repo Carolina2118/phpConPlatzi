@@ -25,3 +25,9 @@ Trabajamos con el pensamiento logico para poder comensar a creas.
 Son conectores que se utilizan mucho, nos permitiría conectar 2 o más valores para identificarlos si su valor es Positivo o Negativo para darle un sentido lógico a los prenunciados que estemos desarrollando de acuerdo al caso.
 
 ![Captura de pantalla de 2023-02-15 17-45-00](https://user-images.githubusercontent.com/67702555/219173326-bb02f88c-afad-4796-b2e9-e27ca4f56a55.png)
+
+
+## Estructura de control.
+
+Son herramientas que nos provee nuestro lenguaje para que podamos hacer validaciones,interacciones y demás actividades de acuerda a la necesidad en nuestros proyectos para nuestro códigos. 
+
