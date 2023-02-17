@@ -37,7 +37,7 @@ Son herramientas que nos provee nuestro lenguaje para que podamos hacer validaci
  
 - Esta estructura de control nos ayuda a validar si sucede alguna condición para que una acción se pueda ejecutar y en caso de que esa validación sea falso o que no se cumpla entonces se va a ejecutar otra acción.
 
-   # While / Do-While
+  # While / Do-While
 
 Estructura que se tratan como un siglo porque ejecuta una acción mientras una condición sucede.
  
