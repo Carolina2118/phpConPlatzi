@@ -39,7 +39,7 @@ Son herramientas que nos provee nuestro lenguaje para que podamos hacer validaci
 
   # While / Do-While
 
-Estructura que se tratan como un siglo porque ejecuta una acción mientras una condición sucede.
+ - Estructura que se tratan como un siglo porque ejecuta una acción mientras una condición sucede.
  
  
  
