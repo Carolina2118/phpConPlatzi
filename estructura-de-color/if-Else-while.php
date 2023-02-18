@@ -15,5 +15,5 @@ while($numero <=10){
 $numeroli = 0;
 do { 
     echo $numeroli++;
-}while ($numeroli <= 10);
+}while ($numeroli <= 10);   
 ?>
