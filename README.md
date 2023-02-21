@@ -65,5 +65,10 @@ foreach (expresión_array as $clave => $valor)
 
 La primera forma recorre el array dado por expresión_array. En cada iteración, el valor del elemento actual se asigna a $valor y el puntero interno del array avanza una posición (así en la próxima iteración se estará observando el siguiente elemento).
 La segunda forma además asigna la clave del elemento actual a la variable $clave en cada iteración.
+
+
+# switch.
+
+
  
  
