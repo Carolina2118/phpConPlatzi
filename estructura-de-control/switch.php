@@ -14,5 +14,4 @@ switch ($valorA){
        echo "No es inguno de los valores 1, 2 o 3";
     break;
 }
-
 ?>
