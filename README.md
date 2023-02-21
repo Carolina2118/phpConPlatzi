@@ -69,6 +69,7 @@ La segunda forma además asigna la clave del elemento actual a la variable $clav
 
 # switch.
 
+- La sentencia switch es similar a una serie de sentencias IF en la misma expresión. En muchas ocasiones, es posible que se quiera comparar la misma variable (o expresión) con muchos valores diferentes, y ejecutar una parte de código distinta dependiendo de a que valor es igual. Para esto es exactamente la expresión switch. 
 
- 
+ ### Nota: Cabe señalar que a diferencia de algunos otros lenguajes, la sentencia continue se aplica a switch y actúa de manera similar a break. Si se tiene un switch dentro de un bucle y se desea continuar a la siguiente iteración de del ciclo exterior, se utiliza continue 2. 
  
