@@ -12,6 +12,7 @@ function concatenacion($nombre3, $apellido4){
 }
 concatenacion("Sebastian","Nuñez");
 
+// sumando
 
 function sumarNumeros($numeros){
     $suma = 0;
