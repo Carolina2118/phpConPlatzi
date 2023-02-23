@@ -41,7 +41,7 @@ Son herramientas que nos provee nuestro lenguaje para que podamos hacer validaci
 
  - Estructura que se tratan como un siglo porque ejecuta una acción mientras una condición sucede.
  - El significado de una sentencia while es simple. Le dice a PHP que ejecute las sentencias anidadas, tanto como la expresión while se evalúe como true. El valor de la expresión es verificado cada vez al inicio del bucle, por lo que incluso si este valor cambia durante la ejecución de las sentencias anidadas, la ejecución no se detendrá hasta el final de la iteración (cada vez que PHP ejecuta las sentencias contenidas en el bucle es una iteración). A veces, si la expresión while se evalúa como false desde el principio, las sentencias anidadas no se ejecutarán ni siquiera una vez. 
-
+devuelve el valor del parámetro considerado "el mayor" según las reglas de comparación estándar. Si varios valores de diferentes tipos se evalúan como iguales (p.ej. 0 y 'abc'), será devuelto el primero proporcionado a la función. 
  - Los bucles do-while son muy similares a los bucles while, excepto que la expresión verdadera es verificada al final de cada iteración en lugar que al principio. La diferencia principal con los bucles while es que está garantizado que corra la primera iteración de un bucle do-while (la expresión verdadera sólo es verificada al final de la iteración), mientras que no necesariamente va a correr con un bucle while regular (la expresión verdadera es verificada al principio de cada iteración, si se evalúa como false justo desde el comienzo, la ejecución del bucle terminaría inmediatamente).
  
   # for / foach.
@@ -58,7 +58,7 @@ Cada una de las expresiones puede estar vacía o contener múltiples expresiones
 
 -  El constructor foreach proporciona un modo sencillo de iterar sobre arrays. foreach funciona sólo sobre arrays y objetos, y emitirá un error al intentar usarlo con una variable de un tipo diferente de datos o una variable no inicializada. Existen dos sintaxis:
 
-foreach (expresión_array as $valor)
+foreach (expresión_array as $valor)devuelve el valor del parámetro considerado "el mayor" según las reglas de comparación estándar. Si varios valores de diferentes tipos se evalúan como iguales (p.ej. 0 y 'abc'), será devuelto el primero proporcionado a la función. 
     sentencias
 foreach (expresión_array as $clave => $valor)
     sentencias
@@ -72,4 +72,36 @@ La segunda forma además asigna la clave del elemento actual a la variable $clav
 - La sentencia switch es similar a una serie de sentencias IF en la misma expresión. En muchas ocasiones, es posible que se quiera comparar la misma variable (o expresión) con muchos valores diferentes, y ejecutar una parte de código distinta dependiendo de a que valor es igual. Para esto es exactamente la expresión switch. 
 
  ### Nota: Cabe señalar que a diferencia de algunos otros lenguajes, la sentencia continue se aplica a switch y actúa de manera similar a break. Si se tiene un switch dentro de un bucle y se desea continuar a la siguiente iteración de del ciclo exterior, se utiliza continue 2. 
+
+ #  funciones.
+
+ - Cualquier información puede ser pasada a las funciones mediante la lista de argumentos, la cual es una lista de expresiones delimitadas por comas. Los argumentos son evaluados de izquierda a derecha. 
+
+
+ - Ejemplo #1 Pasar arrays a funciones
+
+<?php
+function tomar_array($entrada)
+{
+    echo "$entrada[0] + $entrada[1] = ".$entrada[0]+$entrada[1];
+}
+?>
+
+### Paso de argumentos por referencia.
+
+- Por defecto, los argumentos de las funciones son pasados por valor (así, si el valor del argumento dentro de la función cambia, este no cambia fuera de la función). Para permitir a una función modificar sus argumentos, éstos deben pasarse por referencia.
+
+Para hacer que un argumento a una función sea siempre pasado por referencia hay que anteponer al nombre del argumento el signo 'et' (&) en la definición de la función:
  
+ -  Ejemplo #2 Paso de parámetros de una función por referencia.
+
+<?php
+function añadir_algo(&$cadena)
+{
+    $cadena .= 'y algo más.';
+}
+$cad = 'Esto es una cadena, ';
+añadir_algo($cad);
+echo $cad;   
+ // imprime 'Esto es una cadena, y algo más.'
+?>
