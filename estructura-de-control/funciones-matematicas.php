@@ -6,4 +6,8 @@ echo min(9,4,3,2,6);
 
 #ramd muestra un numero a liatorio , caba ves que se consulte sera un numero distinto 
 echo rand(40,100);
+# sqrt se ejecuta la raiz cuadrada.
+
+echo sqrt(25);
+
 ?>
