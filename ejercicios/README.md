@@ -10,4 +10,6 @@
 Según una lista que contiene las edades de cada estudiante debes validar su edad y mostrar a través de un mensaje en dónde tendrán que almacenar sus juguetes.
 
 Por ejemplo:
+![Captura de pantalla de 2023-03-03 15-28-44](https://user-images.githubusercontent.com/67702555/222799657-ba4d5302-b4d0-44bd-b5ae-102b61013a5a.png)
+
 
