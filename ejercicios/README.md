@@ -14,6 +14,22 @@ Según una lista que contiene las edades de cada estudiante debes validar su eda
 
 Por ejemplo:
 
-![Captura de pantalla de 2023-03-03 15-28-44](https://user-images.githubusercontent.com/67702555/222799657-ba4d5302-b4d0-44bd-b5ae-102b61013a5a.png)
+![Captura de pantalla de 2023-03-03 15-28-44](https://user-images.githubusercontent.com/67702555/222799657-ba4d5302-b4d0-44bd-b5ae-102b61013a5a.png).
+
+
+ ### Medio árbol de Navidad.
+
+ -Dibuja medio árbol de Navidad usando solo asteriscos como se indica en el siguiente ejemplo:
+
+*
+**
+***
+****
+*****
+
+- La altura de este árbol debe ser dinámica, si le dices que tendrá 10 de alto, entonces tendrá 10 asteriscos.
+
+    Tip: Usa un ciclo para realizar esta actividad.
+
 
 
