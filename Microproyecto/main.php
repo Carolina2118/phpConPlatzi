@@ -1,10 +1,10 @@
 <?php
 
-$palabras = array("Sombra","Raton", "Girasol");
-$palabrasDesordenadas =array();
+$palabras = array("sombra","raton", "girasol");
+$palabrasDesordenadas = array();
 
 for ($i=0; $i < 3; $i++) { 
-    
+
    $palabrasDesordenadas[$i] = str_shuffle($palabras[$i]);
 }
 
@@ -14,10 +14,7 @@ print_r($palabrasDesordenadas);
 echo"
 <form action='analisis.php' style = 'padding-left: 270px;
 padding-right: 270px;'>
-<div style ='
-
-background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-'>
+<div style ='background: linear-gradient(to right, #093637, #44A08D);'>
 <p>Te dare una pista.</p>
 <p> En el jardín estoy y en tus pies siempre voy.</p>
 <P>ARBMOS </P>
