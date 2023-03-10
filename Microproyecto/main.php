@@ -2,11 +2,12 @@
 
 $palabras = array("sombra","raton", "girasol");
 $palabrasDesordenadas = array();
+# si queremos agregar o eliminar mas palabras en nuestro array tenemos que usar COUNT ()se encarga de calcular la cantidad de posiciones del array en manera dinamica 
 
-for ($i=0; $i < 3; $i++) { 
+for ($i=0; $i < count($palabras); $i++) { 
 
    $palabrasDesordenadas[$i] = str_shuffle($palabras[$i]);
-}
+} 
 
 print_r($palabrasDesordenadas);
 
