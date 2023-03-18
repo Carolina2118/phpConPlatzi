@@ -1,4 +1,4 @@
-<?php
+git <?php
 $palabras =array("sol","luna","cielo","tierra","agua", "estrellas");
 
 $form = "<div style='border-style: double; padding: 10px; border: 100px solid #adabaa; background-color: #d79448;'> 

@@ -1,5 +1,7 @@
 <?php
 
+
+
 $precio = $_REQUEST['precio'];
 $descuento= $_REQUEST['descuento'];
 
@@ -11,5 +13,7 @@ function calcular($precio,$descuento) {
 }
 
 echo calcular($precio,$descuento);
+
+
 
 ?>

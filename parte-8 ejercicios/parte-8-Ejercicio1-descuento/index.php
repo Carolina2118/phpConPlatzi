@@ -9,16 +9,13 @@
 <body>
   <h1>Calcular descuento</h1>
   <form method="get" action="analisis.php">
-    <h2>Poné tu precio y tu descuento deseado y nosotros lo calculamos</h2>
+    <h2>Poné tu precio y el descuento que deseado</h2>
     <input type="number" placeholder="precio" name="precio" value="">
     <input type="number" placeholder="descuento" name="descuento" value="">
     <input value="calcular" type="submit">
 
     <style>
-
-input[type=number] {
-    -moz-appearance:textfield;
-}
+input[type=number] {-moz-appearance:textfield;}
 </style>
   </form>
 </body>
